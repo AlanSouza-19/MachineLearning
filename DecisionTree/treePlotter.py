@@ -69,7 +69,7 @@ def createPlot(inTree):
     #createPlot.ax1 = plt.subplot(111, frameon=False) #ticks for demo puropses 
     plotTree.totalW = float(getNumLeafs(inTree))
     plotTree.totalD = float(getTreeDepth(inTree))
-    plotTree.xOff = -0.5/plotTree.totalW; plotTree.yOff = 1.0;
+    plotTree.xOff = -0.5/plotTree.totalW; plotTree.yOff = 1.0
     plotTree(inTree, (0.5,1.0), '')
     plt.show()
 
